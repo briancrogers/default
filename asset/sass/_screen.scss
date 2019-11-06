@@ -10,7 +10,8 @@ html {
 
 body {
     background-color: $bg;
-    font-family: "Open Sans", sans-serif;
+    /*font-family: "Open Sans", sans-serif;  */
+    font-family: 'Literata', serif;
     font-size: $base-font-size;
     line-height: $base-line-height;
     margin: 0;
@@ -19,7 +20,7 @@ body {
 
 a:link {
     text-decoration: none;
-    color: #000;
+    color: #001;
 }
 
 a:visited {
@@ -581,7 +582,7 @@ footer {
 
 .left.file,
 .right.file {
-    max-width: 50%;
+   /*  max-width: 50%; */
 }
 
 .left.file {
