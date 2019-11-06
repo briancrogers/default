@@ -1,0 +1,17 @@
+header nav:before {
+	margin-bottom: 15px;
+	position: initial;
+}
+
+h2 {
+
+	font-size: .5 * $base-font-size;
+}
+
+.item-showcase .resource.item:not(:only-child)  {
+	width: 100%;
+}
+
+.essay-grid-item {
+	width: 100%;
+}
