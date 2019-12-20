@@ -71,7 +71,8 @@ header nav ul li {
 header nav.closed ul,
 header nav ul ul li {
     height: auto;
-    overflow: visible;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 header nav ul a:hover {
