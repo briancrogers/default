@@ -44,6 +44,9 @@ $userBar = $this->userBar();
     <?php echo $this->htmlElement('body'); ?>
         <?php echo $userBar; ?>
         <header>
+            <div class="locale-helper">
+	    <?php echo $this->partial('common/locale-helper'); ?>
+            </div>
             <h1>
                 <a href="<?php echo $site->url(); ?>" class="site-title">
                 <?php if ($this->themeSetting('logo')): ?>
@@ -55,7 +58,6 @@ $userBar = $this->userBar();
             </h1>
             <div id="search">
                 <?php echo $this->partial('common/search-form'); ?>
-                <?php echo $this->partial('common/locale-helper'); ?>
             </div>
 
             <nav>
