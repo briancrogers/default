@@ -2,6 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Literata');
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
 
+/* Omeka Navigation */
+
+.sub-menu .navigation a:link, .sub-menu .navigation a:visited {
+	color: white;
+}
+
+
 /* Omeka main content area */
 
 .blocks {
@@ -29,7 +36,12 @@
 /* Omeka breadcrumbs */
 
 .breadcrumbs {
+	color: white;
     margin: 0 0 25px 0 !important; 
+}
+
+.breadcrumbs a:link, .breadcrumbs a:visited {
+	color: white;
 }
 
 
