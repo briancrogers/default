@@ -30,6 +30,8 @@ $sortHeadings = [
     ],
 ];
 ?>
+<!-- Begin Search Results -->
+<div class="search-results">
 
 <?php if ($itemSetShow): ?>
     <?php echo $this->pageTitle($itemSet->displayTitle(), 2); ?>
@@ -70,3 +72,6 @@ foreach ($items as $item):
 <?php echo ($itemSetShow) ? '</div>' : ''; ?>
 <?php $this->trigger('view.browse.after'); ?>
 <?php echo $this->pagination(); ?>
+
+<!-- End Search Results -->
+</div>
