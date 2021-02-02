@@ -1,4 +1,6 @@
 /vendor/
 /node_modules/
-.sass-cache
-.DS_Store
+asset/css/*
+!asset/css/.gitkeep
+/.sass-cache/
+/.DS_Store/

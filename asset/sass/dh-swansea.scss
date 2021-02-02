@@ -1,0 +1,118 @@
+/* font */
+@import url('https://fonts.googleapis.com/css?family=Literata');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+
+/* Omeka Navigation */
+
+.sub-menu .navigation a:link, .sub-menu .navigation a:visited {
+	color: white;
+}
+
+
+/* Omeka main content area */
+
+.blocks {
+	background: white;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	padding-right: 17px;
+	padding-left: 22px;
+	border-left: solid;
+	border-image: linear-gradient( to bottom, #43789c, rgba(0, 0, 0, 0) ) 1 100%;
+}
+
+.item-show {
+	background-color: white;
+	padding: 25px;
+}
+
+/* Omeka attachment caption */
+
+.left .item.resource>h3, .right .item.resource>h3 {
+    margin: 0;
+    font-size: 0.75em;
+}
+
+/* Omeka breadcrumbs */
+
+.breadcrumbs {
+	color: white;
+    margin: 0 0 25px 0 !important;
+}
+
+.breadcrumbs a:link, .breadcrumbs a:visited {
+	color: white;
+}
+
+/* Search and Search Results */
+
+.search-results, .advanced-search {
+    background-color: white;
+    padding: 40px;
+}
+
+
+/* essays home page */
+
+.essays-homepage-grid {
+    margin: 30px;
+    padding: 29px 0 0;
+    overflow: hidden;
+    text-align: center;
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.essay-grid-item {
+	width: 25%;
+	padding: 0 1.2%;
+	margin-bottom: 30px;
+}
+
+.essay-grid-item>h4 {
+	font-size: 15px;
+}
+
+.essay-grid-item>a:hover>img {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* in-page centenary essay navigation */
+
+.cent-local-navigation {
+	list-style-type: none;
+    width: 45%;
+    background-color: #f9f9f9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.cent-local-navigation:hover {
+    background-color: #efeeee;
+}
+
+.cent-local-navigation>li>a:hover {
+	text-decoration: underline;
+	text-decoration-color: #96a2b5;
+}
+
+/* locale helper float right */
+.locale-helper {
+    float: right;
+}
+
+/* Media viewing */
+
+.dh-media-show {
+	background-color: white;
+	padding: 25px;
+}
+
+footer {
+	color: #e9dcc5;
+}
+
+footer a:link, footer a:active, footer a:visited {
+	color: #e9dcc5;
+}

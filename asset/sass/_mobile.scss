@@ -1,0 +1,104 @@
+header nav:before {
+	margin-bottom: 15px;
+	position: initial;
+}
+
+.breadcrumbs {
+	font-size: .6 * $base-font-size;
+	line-height: 0.5 * $base-line-height;
+}
+
+p {
+	font-size: .6 * $base-font-size;
+	line-height: 0.6 * $base-line-height;
+}
+
+h2 {
+	font-size: .75 * $base-font-size;
+	line-height: 0.7 * $base-line-height;
+}
+
+h3 {
+	font-size: .6 * $base-font-size;
+	line-height: 0.5 * $base-line-height;
+}
+
+h4 {
+	font-size: .57 * $base-font-size;
+	line-height: 0.5 * $base-line-height;
+}
+
+h3 a:link {
+	font-size: .6 * $base-font-size;
+}
+
+.item-showcase .resource.item:not(:only-child)  {
+	width: 100%;
+}
+
+.essay-grid-item {
+	width: 100%;
+}
+
+.cent-local-navigation {
+	font-size: .55 * $base-font-size;
+	padding-left: 5px;
+	width: 100%;
+}
+
+.item.resource, .item.resource {
+	font-size: .6 * $base-font-size;
+	max-width: 100%;
+	width: 100%;
+}
+
+.item.resource img, .item.resource img {
+	max-width: 100%;
+	width: 100%;
+}
+
+
+.left .item.resource, .right .item.resource {
+	font-size: .6 * $base-font-size;
+	line-height: 0.5 * $base-line-height;
+	max-width: 100%;
+	width: 100%;
+}
+
+.left .item.resource img, .right .item.resource img {
+	max-width: 100%;
+	width: 100%;
+}
+
+/* Item Property View */
+
+.property h4 {
+	font-size: .57 * $base-font-size;
+	line-height: 0.5 * $base-line-height;
+}
+
+.value {
+	font-size: .6 * $base-font-size;
+	line-height: 0.6 * $base-line-height;
+}
+
+.resource-link img {
+	height: auto;
+	max-width: 100%;
+	width: 100%;
+}
+
+.media-list {
+	font-size: .6 * $base-font-size;
+	line-height: 0.6 * $base-line-height;
+}
+
+.media-list a:hover {
+	color: gray;
+}
+
+/* Search and Search Results */s
+
+.search-results, .advanced-search {
+	padding: 20px;
+}
