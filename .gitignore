@@ -3,5 +3,5 @@
 /node_modules
 asset/css/*
 !asset/css/.gitkeep
-/.sass-cache/
-/.DS_Store/
+.sass-cache
+.DS_Store
