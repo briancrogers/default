@@ -1,5 +1,6 @@
 /vendor/
 /node_modules/
+/node_modules
 asset/css/*
 !asset/css/.gitkeep
 /.sass-cache/
