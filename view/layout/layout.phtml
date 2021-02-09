@@ -54,7 +54,7 @@ $userBar = $this->userBar();
                 <?php endif; ?>
                 </a>
             </h1>
-            <?php if ($this->getHelperPluginManager()->has('languageSwitcher')) echo $this->languageSwitcher(array('locale_as_code' => true)); ?>
+            <?php if ($this->getHelperPluginManager()->has('languageSwitcher')) echo $this->languageSwitcher(array('locale_as_pill' => true)); ?>
             <div id="search">
                 <?php echo $this->partial('common/search-form'); ?>
             </div>
