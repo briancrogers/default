@@ -116,3 +116,13 @@ footer {
 footer a:link, footer a:active, footer a:visited {
 	color: #e9dcc5;
 }
+
+/* Main theme logo */
+a.site-title img {
+  width: 350px;
+}
+@media screen and (max-width:800px) {
+  a.site-title img {
+    padding-top: 10px;
+  }
+}
