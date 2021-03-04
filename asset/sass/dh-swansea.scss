@@ -117,6 +117,8 @@ footer a:link, footer a:active, footer a:visited {
 	color: #e9dcc5;
 }
 
+/* Language switcher */
+
 ul.language-switcher.locale-pill .flag-icon.active {
   box-shadow: none;
 }
@@ -145,3 +147,13 @@ ul.language-switcher.locale-pill .flag-icon {
 @include flag-icon(cy_on, cy-active);
 @include flag-icon(en, en);
 @include flag-icon(en_on, en-active);
+
+/* Main theme logo */
+a.site-title img {
+  width: 350px;
+}
+@media screen and (max-width:800px) {
+  a.site-title img {
+    padding-top: 10px;
+  }
+}
