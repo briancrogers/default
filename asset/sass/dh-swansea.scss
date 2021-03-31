@@ -128,7 +128,9 @@ ul.language-switcher.locale-pill li {
 }
 
 ul.language-switcher.locale-pill {
-  margin-left: 0;
+  margin-left: auto;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 ul.language-switcher.locale-pill .flag-icon {
